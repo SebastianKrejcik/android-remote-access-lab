@@ -29,7 +29,7 @@ Der Port ist lokal auf dem Android-Gerät offen, aber vom Hotspot-Client aus nic
 Da die direkte, eingehende Verbindung durch die Hotspot-Isolation blockiert wird, 
 wird stattdessen eine **ausgehende** Verbindung vom Android-Gerät über einen öffentlichen Tunnel-Anbieter (Pinggy) aufgebaut:
 
-Zorin-PC
+PC
    |
    | SSH -> oeffentlicher Tunnel-Port
    v
