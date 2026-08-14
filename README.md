@@ -63,6 +63,20 @@ Das Problem war nicht SSH-Konfiguration, sondern Netzwerk-Erreichbarkeit – gel
 
 ## Hinweis
 
-Dieses Lab dient ausschließlich der eigenen Lernumgebung (eigenes Gerät, eigener Hotspot). 
+## Sicherheit
 
-Kein Zugriff auf fremde Systeme.
+Dieses Setup wurde nur in einer eigenen Lernumgebung getestet:
+
+- eigenes Android-Gerät
+- eigener Hotspot
+- keine fremden Systeme
+- keine produktiven Daten
+
+Der öffentliche Tunnel ist nur für Testzwecke geeignet.
+Für produktive Einsätze wären zusätzliche Maßnahmen nötig, z. B.:
+
+- Schlüsselbasierte SSH-Authentifizierung statt Passwort
+- zeitlich begrenzte Tunnel
+- minimale Berechtigungen
+- keine Freigabe sensibler Ports
+- idealerweise VPN-Lösungen wie WireGuard/Tailscale statt öffentlichem Tunnel
