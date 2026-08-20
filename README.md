@@ -54,7 +54,7 @@ Der PC verbindet sich dann über diese öffentliche Adresse statt direkt über d
 - Unterscheidung lokale vs. eingehende Erreichbarkeit
 - Betrieb ohne Root-Rechte (App-Sandbox-Berechtigungsmodell von Android/Termux)
 
-## Erkenntnis
+## Leason Learned
 
 Android basiert zwar auf dem Linux-Kernel, das Berechtigungs- und Netzwerkmodell der App-Umgebung (Termux) unterscheidet sich aber deutlich von einem klassischen Linux-Server
 – u. a. durch fehlende Root-Rechte und die Isolation im Hotspot-Netz. 
